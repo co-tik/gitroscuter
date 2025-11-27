@@ -418,3 +418,572 @@ footer{
     font-weight: bold;
     color:black;
 }
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+        min-height: 600px;
+    }
+
+    .My-Giro {
+        height: auto;
+        min-height: 500px;
+        padding: 20px 0;
+    }
+
+    .text-MyGiro > h1 {
+        font-size: 42px;
+    }
+
+    .text-MyGiro > p {
+        font-size: 18px;
+    }
+
+    .advantage-item {
+        gap: 40px;
+    }
+
+    .ul-peculiarities {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .block-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 45%;
+        max-width: 300px;
+    }
+
+    .brands {
+        font-size: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .brands > p:first-child,
+    .brands > p:last-child {
+        margin: 0;
+    }
+
+    .info-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-info, .img-info1, .img-info2, .img-info3 {
+        width: 45%;
+        max-width: 300px;
+        margin: 10px;
+        background-repeat: no-repeat;
+    }
+
+    .text-img{
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-nav {
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: auto;
+        min-height: 600px;
+        background-position: center top; 
+    }
+
+    .My-Giro {
+        height: auto;
+        min-height: 450px;
+        padding: 20px 0;
+    }
+
+    .text-MyGiro > h1 {
+        font-size: 44px;
+    }
+
+    .text-MyGiro > p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .header,
+    .number {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .ul-nav {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .text-ul {
+        margin: 5px;
+    }
+
+    .advantage-text {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .advantage-item {
+        gap: 30px; 
+        justify-content: center;
+    }
+
+    .ul-peculiarities {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Subscribe {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .text-Subscribe {
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .input,
+    .button-subscribe {
+        width: 200px; 
+    }
+
+    .block-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px; 
+    }
+
+    .card {
+        width: calc(50% - 15px); 
+        max-width: 280px;
+        height: auto;
+        min-height: 350px; 
+    }
+
+    .catalog-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .catalog-nav > p {
+        padding: 5px 10px;
+    }
+
+    .catalog-nav > p:hover {
+        padding: 8px 12px;
+        height: auto;
+    }
+
+    .catalog { height: auto; padding-bottom: 80px; }
+
+
+    .block-consultant,
+    .card-consultant {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .info-consultant {
+        width: 200px;
+        max-width: 100%;
+        margin: 0 auto 10px;
+        text-align: center;
+    }
+
+    .brands {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        padding: 20px 0;
+        font-size: 36px;
+    }
+
+    .brands > p:first-child,
+    .brands > p:last-child {
+        margin: 0; 
+    }
+
+    .info {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .info-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .img-info, .img-info1, .img-info2, .img-info3 {
+        width: calc(50% - 15px);
+        max-width: 280px;
+        height: 250px;
+        margin: 0;
+        background-repeat: no-repeat;
+    }
+
+    .text-img {
+        width: 100%;
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-text {
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .footer-nav {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    footer {
+        font-size: 14px; 
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 95%;
+        padding: 0 10px; 
+    }
+
+    header {
+        height: auto;
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header,
+    .number {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 15px 0;
+        gap: 10px;
+    }
+
+    .header > p {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .ul-nav {
+        flex-direction: column;
+        gap: 8px;
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-ul {
+        margin: 0;
+    }
+
+    .My-Giro {
+        height: auto;
+        min-height: 300px;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .text-MyGiro > h1 {
+        font-size: 32px;
+    }
+
+    .text-MyGiro > p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+
+    .button-catalog {
+        width: 140px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .advantage-text,
+    .advantage-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .Polygon {
+        width: auto;
+        justify-content: center;
+    }
+
+    .block-Subscribe {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .Subscribe {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .text-Subscribe {
+        width: 100%;
+        margin: 0;
+    }
+
+    .input,
+    .button-subscribe {
+        width: 100%;
+        max-width: 250px;
+        height: 45px;
+    }
+
+    input::placeholder {
+        padding-left: 15px;
+    }
+
+    .peculiarities {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .ul-peculiarities {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .AboutUs-text {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .catalog {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .nav-catalog {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .nav-catalog > p {
+        margin: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .catalog-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .catalog-nav > p:hover {
+        padding: 10px 15px;
+    }
+
+    .block-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .card > p,
+    .price {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .consultant {
+        padding: 0 10px;
+    }
+
+    .block-consultant,
+    .card-consultant {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info-consultant {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        overflow: visible;
+    }
+
+    .info-consultant > button {
+        margin: 10px auto 0;
+        width: 100px;
+    }
+
+    .brands {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+        padding: 30px 10px;
+        font-size: 28px;
+    }
+
+    .info-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .img-info, .img-info1, .img-info2, .img-info3 {
+        width: 100%;
+        max-width: 260px;
+        height: 220px;
+        background-repeat: no-repeat;
+    }
+
+    .text-img {
+        font-size: 16px;
+        line-height: 24px;
+        justify-content: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .footer-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-text > p {
+        margin-bottom: 15px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-ul {
+        text-align: center;
+    }
+
+    .footer-ul > li {
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .text-MyGiro > h1 {
+        font-size: 26px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .button-number,
+    .button-catalog,
+    .button-subscribe {
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .card,
+    .brands {
+        font-size: 24px; 
+    }
+
+    .info-card {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .input,
+    .button-subscribe {
+        height: 40px;
+    }
+
+    .catalog-nav > p {
+        font-size: 14px;
+    }
+}
+
+
+
